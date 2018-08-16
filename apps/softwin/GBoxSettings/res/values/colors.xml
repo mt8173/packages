@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="start_title_color">#ff3c3c3c</color>
+    <color name="start_content_color1">#ff4c4c4c</color>
+    <color name="start_bluetooth_conn_gamepad_color">#ff333333</color>
+    <item type="drawable" name="launcher_btn_next_color_focus">#ffffffff</item>
+    <item type="drawable" name="launcher_btn_next_color_normal">#ff4c4c4c</item>
+</resources>

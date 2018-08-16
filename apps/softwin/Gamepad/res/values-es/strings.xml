@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gamepad</string>
+    <string name="action_settings">Settings</string>
+    <string name="mode_title">Modo Interno de Mando:</string>
+    <string name="ps3_mode">Modo de mando PSP</string>
+    <string name="xbox_mode">Modo de mando Android</string>
+
+</resources>

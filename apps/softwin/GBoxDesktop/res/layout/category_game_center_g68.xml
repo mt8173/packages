@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_game_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/gc_image_nav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/gc_image_nav1"
+            style="@style/GameCenterImageNav"
+            android:layout_width="@dimen/gc_image_nav_v_width"
+            android:layout_height="@dimen/gc_image_nav_v_height"
+            android:src="@drawable/gc_image_nav1" />
+
+        <ImageView
+            android:id="@+id/gc_image_nav2"
+            style="@style/GameCenterImageNav"
+            android:layout_width="@dimen/gc_image_nav_v_width"
+            android:layout_height="@dimen/gc_image_nav_v_height"
+            android:layout_toRightOf="@id/gc_image_nav1"
+            android:src="@drawable/gc_image_nav2" />
+
+        <ImageView
+            android:id="@+id/gc_image_nav3"
+            style="@style/GameCenterImageNav"
+            android:layout_width="@dimen/gc_image_nav_h_width"
+            android:layout_height="@dimen/gc_image_nav_h_height"
+            android:layout_toRightOf="@id/gc_image_nav2"
+            android:src="@drawable/gc_image_nav3" />
+
+        <ImageView
+            android:id="@+id/gc_image_nav4"
+            style="@style/GameCenterImageNav"
+            android:layout_width="@dimen/gc_image_nav_h_width"
+            android:layout_height="@dimen/gc_image_nav_h_height"
+            android:layout_below="@id/gc_image_nav3"
+            android:layout_toRightOf="@id/gc_image_nav2"
+            android:src="@drawable/gc_image_nav4" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/gc_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <com.softwin.gbox.home.MyWorkspaceNew
+            android:id="@+id/gc_content_layout_ui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+        <TextView 
+            android:id="@+id/gc_content_layout_tip"
+            style="@style/NavigationItem"
+            android:layout_marginTop="@dimen/tab_margin_top"
+        	android:layout_marginLeft="@dimen/tab_margin_left"
+        	android:text="@string/g68_gc_back"
+            />
+    </FrameLayout>
+
+</FrameLayout>

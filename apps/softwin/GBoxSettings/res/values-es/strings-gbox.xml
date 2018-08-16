@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- bluetooth -->
+	<string name="gbox_settings_app_name">setting</string>
+	<string name="start_bluetooth_title">Gamepad adaptive guide</string>
+    <string name="start_bluetooth_success_title">Gamepad adaptive situation</string>
+    <string name="start_bluetooth_success_content">Gamepad adapt successfully</string>
+    <string name="start_bluetooth_next_tip">You can use other equipment to choose</string>
+    <string name="start_bluetooth_tip1">Gamepad is adapting, operate as following:</string>
+    <string name="start_bluetooth_tip2">connected gamepad</string>
+    <string name="start_bluetooth_step1">Open gamepad power</string>
+    <string name="start_bluetooth_step2">Press PAIR button until sparkle, loosen finger</string>
+    <string name="start_bluetooth_gamepad1">gamepad 1</string>
+    <string name="start_bluetooth_gamepad2">gamepad 2</string>
+    <string name="start_bluetooth_gamepad3">gamepad 3</string>
+    <string name="start_bluetooth_gamepad_anim">adapting...</string>
+    <string name="start_bluetooth_gamepad_conn1">First gamepad is adapting...</string>
+    <string name="start_bluetooth_gamepad_conn_continue_tip">first gamepad adapt successfully, click "continue connecting" if need continue</string>
+    <string name="start_bluetooth_gamepad_conn2">second gamepad is adapting, click "next step" if no need adapting</string>
+    <string name="start_bluetooth_gamepad_conn2_isfromsetting">second gamepad is adapting, click "exit" if no need adapting</string>
+    <string name="start_bluetooth_gamepad_conn3">already connect 2 gamepads, will skip automatically after 2 seconds...</string>
+    <string name="start_bluetooth_gamepad_conn3_isfromsetting">already connect 2 gamepads, will exit automatically after 2 seconds...</string>
+    <string name="start_bluetooth_next_btn">next</string>
+    <string name="start_bluetooth_continue_btn">continue connecting</string>
+    <string name="start_bluetooth_exit_btn">Salir</string>
+
+	<string-array name="start_bluetooth_title">
+	    <item>First gamepad adapting</item>
+	    <item>Second gamepad adapting</item>
+	    <item>Third gamepad adapting</item>
+	    <item>Fourth gamepad adapting</item>
+	    <item>N-th gamepad adapting</item>
+	</string-array>
+	
+	<!-- time -->
+	<string name="time">Hora</string>
+    <string name="time_auto_check">Comprobar automáticamente hora</string>
+    <string name="time_cancel">Cancelar</string>
+    <string name="time_retry">Reintentar</string>
+    <string name="time_update_fail">Falló</string>
+</resources>

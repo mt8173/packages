@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_myapps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+    <com.softwin.gbox.home.AppItemView
+        android:id="@+id/item_app1"
+        android:layout_width="211.0dip"
+        android:layout_height="211.0dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_margin="2dip"
+        />
+    <com.softwin.gbox.home.AppItemView
+        android:id="@+id/item_app2"
+		android:layout_width="211.0dip"
+        android:layout_height="211.0dip"
+        android:layout_below="@id/item_app1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_margin="2dip"
+        myapp:ashadow="true"
+        />
+    <ImageView
+        android:id="@+id/item_app_shadow"
+        android:layout_width="211.0dip"
+        android:layout_height="46.0dip"
+        android:layout_below="@id/item_app2"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/global_desc"
+         />
+</RelativeLayout>

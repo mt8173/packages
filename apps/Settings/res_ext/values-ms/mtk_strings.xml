@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Tetapan HDMI</string>
+  <string name="hdmi_settings_summary">Klik untuk mengkonfigurasi HDMI</string>
+  <string name="hdmi_video_resolution">Resolusi video</string>
+  <string name="hdmi_auto">Auto</string>
+  <string name="hdmi_scale_control">Tetapan skala video</string>
+  <string name="hdmi_scale_no_scale">Tiada penskalaan</string>
+  <string name="hdmi_scale_scale_down">Kecilkan <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Output audio</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Berbilang Saluran</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Pembekal kesan visual terbaik</string>
+  <!-- MiraVision end -->
+</resources>

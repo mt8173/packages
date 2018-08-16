@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keywords">
+        <item>神庙大逃亡</item>
+        <item>鳄鱼小顽皮</item>
+        <item>捕鱼达人</item>
+        <item>水果忍者</item>
+        <item>祖玛</item>
+        <item>会说话的汤姆猫</item>
+        <item>水果鳄鱼</item>
+        <item>疯狂喷气机</item>
+        <item>愤怒的火柴人</item>
+        <item>汤姆猫2</item>
+        <item>正宗水果忍者</item>
+        <item>武士2：复仇</item>
+        <item>星球大战</item>
+        <item>致命空袭</item>
+        <item>切西瓜</item>
+        <item>都市赛车5</item>
+        <item>忘仙</item>
+        <item>帝王三国</item>
+        <item>时空猎人</item>
+        <item>怪物联盟</item>
+    </string-array>
+    <integer-array name="game_xiaoji_desc">
+        <item >@drawable/game_xiaoji_desc1</item>
+        <item >@drawable/game_xiaoji_desc2</item>
+    </integer-array>
+    <integer-array name="game_pc_desc">
+        <item >@drawable/game_pc10</item>
+        <item >@drawable/game_pc11</item>
+    </integer-array>
+</resources>

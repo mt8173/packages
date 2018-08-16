@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI iestatījumi</string>
+  <string name="hdmi_settings_summary">Noklikšķiniet, lai konfigurētu HDMI</string>
+  <string name="hdmi_video_resolution">Video izšķirtspēja</string>
+  <string name="hdmi_auto">"automātisks"</string>
+  <string name="hdmi_scale_control">Video mērogošanas iestatījumi</string>
+  <string name="hdmi_scale_no_scale">Bez mērogošanas</string>
+  <string name="hdmi_scale_scale_down">Samazināt mērogu <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Audio izvade</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Vairāku kanālu</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Nodrošināt labākos vizuālos efektus</string>
+  <!-- MiraVision end -->
+</resources>

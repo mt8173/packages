@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="translucent">#b0000000</item>
+    <item type="drawable" name="launcher_btn_next_color_focus">#ffffffff</item>
+    <item type="drawable" name="launcher_btn_next_color_normal">#ff4c4c4c</item>
+    <item type="drawable" name="ltgray">#fff4f4f4</item>
+    <item type="drawable" name="ltyellow">#fffff4db</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="transparent2">#ffe2f4fe</item>
+    <drawable name="widget_edit_block_bg_normal">@android:color/transparent</drawable>
+    <item type="drawable" name="transparent_background">#99000000</item>
+    <item type="drawable" name="list_background">#fff4f4f4</item>
+    <item type="drawable" name="namcard_picker_bkg_normal">#ff272727</item>
+    <item type="drawable" name="namcard_picker_bkg_hover">#ff333333</item>
+</resources>

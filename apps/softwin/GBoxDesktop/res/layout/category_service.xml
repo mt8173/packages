@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:setting="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/category_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false" >
+
+    <FrameLayout
+        android:id="@+id/help_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/settings_cell_margin"
+        android:layout_marginTop="@dimen/settings_margin_top" >
+
+        <ImageView
+            android:layout_width="@dimen/settings_cell_size2_and_margin"
+            android:layout_height="@dimen/settings_cell_size2_and_margin"
+            android:layout_marginTop="@dimen/settings_cell_margin"
+            android:src="@drawable/help_left" />
+    </FrameLayout>
+
+    <com.softwin.gbox.home.CustomShadowLayout
+        android:id="@+id/help_view_1"
+        setting:style="@drawable/cs_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/help_left"
+        android:layout_marginLeft="@dimen/settings_h_image_custom"
+        android:layout_toRightOf="@+id/help_left"
+        setting:next_left_view="@id/global_no_move"
+        setting:next_up_view="@id/navigation_service"
+        setting:packageName="@string/package_help_app" />
+
+    <com.softwin.gbox.home.CustomShadowLayout
+        android:id="@+id/help_view_2"
+        setting:name="@string/help_email"
+        setting:style="@drawable/cs_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/help_left"
+        android:layout_marginLeft="@dimen/settings_margin_left"
+        android:layout_toRightOf="@+id/help_view_1"
+        setting:icon="@drawable/help_email"
+        setting:next_up_view="@id/navigation_service" />
+
+    <com.softwin.gbox.home.CustomShadowLayout
+        android:id="@+id/help_view_3"
+        setting:name="@string/update"
+        setting:style="@drawable/cs_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/help_left"
+        android:layout_marginLeft="@dimen/settings_margin_left"
+        android:layout_toRightOf="@+id/help_view_2"
+        setting:icon="@drawable/setting_logo_update"
+        setting:next_right_view="@id/global_no_move"
+        setting:next_up_view="@id/navigation_service" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_alignBottom="@+id/help_left"
+        android:layout_marginLeft="@dimen/app_cell_width_gap"
+        android:layout_below="@id/help_view_1"
+        android:layout_marginTop="@dimen/settings_v_custom_image"
+        android:layout_toRightOf="@+id/help_left"
+        android:src="@drawable/help_right_botton" />
+
+</RelativeLayout>

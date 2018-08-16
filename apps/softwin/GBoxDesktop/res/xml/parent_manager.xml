@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceScreen
+        android:key="password_input"
+        android:order="100"
+        android:title="@string/parent_modify_password" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.softwin.gbox.home"
+            android:targetClass="com.softwin.gbox.home.setting.ParentPasswordSetting" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

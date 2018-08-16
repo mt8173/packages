@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- home style -->
+    <style name="Theme.Start" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/bg_home_atet</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- application style -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:background">#00000000</item>
+    </style>
+    <!-- app dialog style -->
+    <style name="MyDialogApp" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    </style>
+
+    <!-- navigation style -->
+    <style name="NavigationItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/tab_item_height</item>
+        <item name="android:minWidth">120dip</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:saveEnabled">false</item>
+        <item name="android:background">@drawable/tab_drawable_bg1</item>
+        <item name="android:button">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/tabstate_textcolor_sub</item>
+        <item name="android:textSize">@dimen/tab_textsize</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NavigationItem.Small">
+        <item name="android:textColor">@drawable/tabstate_textcolor</item>
+        <item name="android:textSize">@dimen/small_tab_textsize</item>
+        <item name="android:saveEnabled">true</item>
+    </style>
+    <style name="NavigationItem.Tablet">
+        <item name="android:minWidth">70dip</item>
+        <item name="android:textColor">@drawable/tabstate_textcolor</item>
+        <item name="android:textSize">@dimen/small_tab_textsize</item>
+        <item name="android:saveEnabled">true</item>
+    </style>
+    <style name="ParentMangerLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/tabstate_textcolor</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="ParentMangerCheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- gbox settings -->
+    <style name="launcher_setting_item_bg_style">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">211.0dip</item>
+        <item name="android:layout_height">211.0dip</item>
+        <item name="android:layout_marginLeft">93.0dip</item>
+        <item name="android:layout_marginTop">90.0dip</item>
+    </style>
+
+    <style name="setting_item_overlay">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">416.0dip</item>
+        <item name="android:layout_height">416.0dip</item>
+    </style>
+    <style name="setting_item_layout">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">211.0dip</item>
+        <item name="android:layout_height">211.0dip</item>
+        <item name="android:layout_marginLeft">93.0dip</item>
+        <item name="android:layout_marginTop">92.0dip</item>
+    </style>
+    <style name="setting_item_name">
+        <item name="android:textSize">@dimen/app_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/settings_cell_margin_top_text</item>
+    </style>
+    <style name="setting_item_icon">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/settings_icon_size</item>
+        <item name="android:layout_height">@dimen/settings_icon_size</item>
+        <item name="android:layout_marginTop">@dimen/settings_cell_margin_top_icon</item>
+    </style>
+    <style name="setting_item_shadow">
+        <item name="android:layout_width">212.0dip</item>
+        <item name="android:layout_height">46.0dip</item>
+        <item name="android:layout_marginLeft">93.0dip</item>
+        <item name="android:layout_marginTop">304.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <!-- setting system info -->
+    <style name="start_setting_title_style">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">#ff3c3c3c</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+        <style name="setting_systeminfo_layout_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="setting_systeminfo_textleft_style">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">#ff3c3c3c</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+    </style>
+    <style name="setting_systeminfo_textright_style">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ff3c3c3c</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2.0dip</item>
+    </style>
+    <!-- setting storage -->
+        <style name="setting_starage_tip1">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">55.0dip</item>
+    </style>
+    <style name="setting_starage_tip2">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="setting_storage_seekbar1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">28.0dip</item>
+        <item name="android:layout_marginTop">11.0dip</item>
+        <item name="android:layout_marginRight">44.0dip</item>
+        <item name="android:max">1000</item>
+        <item name="android:progressDrawable">@drawable/setting_storage_seekbar_bar1</item>
+        <item name="android:thumb">@null</item>
+    </style>
+    <style name="setting_storage_seekbar2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">28.0dip</item>
+        <item name="android:layout_marginTop">11.0dip</item>
+        <item name="android:layout_marginRight">44.0dip</item>
+        <item name="android:max">1000</item>
+        <item name="android:progressDrawable">@drawable/setting_storage_seekbar_bar2</item>
+        <item name="android:thumb">@null</item>
+    </style>
+    
+    <style name="password_input_cell">
+        <item name="android:layout_width">@dimen/ui_pwd_btn_width</item>
+        <item name="android:layout_height">@dimen/ui_pwd_btn_height</item>
+        <item name="android:background">@drawable/ui_password_button_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ff58585a</item>
+        <item name="android:textSize">@dimen/ui_pwd_btn_textsize</item>
+    </style>
+    
+        <!-- navigation style -->
+    <style name="GameCenterImageNav">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:contentDescription">@string/global_desc</item>
+    </style>
+</resources>

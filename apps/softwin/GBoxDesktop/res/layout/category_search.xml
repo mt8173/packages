@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dip"
+    android:paddingBottom="80.0dip"  >
+    <RelativeLayout
+        android:id="@+id/search_refresh_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false" >
+
+        <Button
+            android:id="@+id/search_refresh_btn"
+            android:layout_width="117.0dip"
+            android:layout_height="44.0dip"
+            android:background="@drawable/search_refresh_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/launcher_search_btn_change"
+            android:textColor="@color/launcher_btn_color_selector"
+            android:textSize="24.0sp" />
+    </RelativeLayout>
+    <com.softwin.gbox.home.KeywordsFlow
+        android:id="@+id/search_flow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/search_refresh_layout"
+        android:layout_marginBottom="45.0dip"
+        android:layout_marginLeft="134.0dip"
+        android:layout_marginRight="134.0dip"
+        android:layout_marginTop="100.0dip"
+        android:focusable="false"
+        android:nextFocusUp="@id/navigation_search" />
+</RelativeLayout>

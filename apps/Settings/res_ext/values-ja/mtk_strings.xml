@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI設定</string>
+  <string name="hdmi_settings_summary">クリックしてHDMIを設定</string>
+  <string name="hdmi_video_resolution">動画解像度</string>
+  <string name="hdmi_auto">"自動"</string>
+  <string name="hdmi_scale_control">ビデオスケール設定</string>
+  <string name="hdmi_scale_no_scale">スケーリングなし</string>
+  <string name="hdmi_scale_scale_down">スケールダウン<xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">音声出力</string>
+  <string name="hdmi_audio_output_stereo">ステレオ</string>
+  <string name="hdmi_audio_output_multi_channel">マルチチャンネル</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">最高の視覚効果を提供</string>
+  <!-- MiraVision end -->
+</resources>

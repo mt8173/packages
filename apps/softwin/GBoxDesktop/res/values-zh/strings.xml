@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metro桌面</string>
+    <string name="common_no_data">亲，没有内容！</string>
+    <string name="common_no_net_game">1）把preinstall_files拷贝到外部TF卡里\n2）在开机状态下，插入TF卡到游戏机\n3）等待几秒钟左右，按照提示操作</string>
+    <string name="common_whilingLoad">正在努力加载中...</string>
+    <string name="mygame_tip_cantdelete">此应用内置在系统中，无法删除!</string>
+    <string name="mygame_tip_not_install">应用[%s]没有安装</string>
+    <string name="launcher_search_btn_change">换一组</string>
+
+    <string name="game_ref_xiaoji">小鸡模拟器</string>
+    <string name="game_ref_ko">KO电玩城</string>
+    <string name="game_ref_ppsspp">PPSSPP</string>
+  
+    <string name="account_manager">家长管理</string>
+    <string name="advance_setting">高级设置</string>
+    <string name="voice_setting">声音</string>
+    <string name="gamepad_setting">手柄模式</string>
+    <string name="setting_brightness">亮度</string>
+    <string name="video_setting">视频向导</string>
+    <string name="system_info">系统信息</string>
+    <string name="app_manage">屏幕调节</string>
+    <string name="storage">存储</string>
+    <string name="update">检查更新</string>
+    <string name="wifi_manage">网络管理</string>
+    <string name="factory">恢复出厂设置</string>
+    <string name="time_setting">时间</string>
+    <string name="start_language_title">语言选择</string>
+    <string name="start_account_title">账户配置</string>
+    <string name="help_email">消息推送</string>
+    <string name="do_working">正在开发中</string>
+ 
+    <string name="start_guider_vedio_txta">手柄功能介绍</string>
+    <string name="start_guider_vedio_txtb">玩法介绍</string>
+    <string name="start_skip">跳 过</string>
+    <string name="start_exit">退 出</string>
+
+    <string name="setting_voice_title">系统音量</string>
+    <string name="setting_voice_tip">音乐、视频、游戏和其他媒体</string>
+    <string name="setting_voice_lable">音量</string>
+
+    <string name="setting_storage_title">存储</string>
+    <string name="setting_home_switch">"桌面切换"</string>
+    <string name="setting_storage_tf_tip">外部TF卡: 总共</string>
+    <string name="setting_storage_sys_tip">内部存储: 总共</string>
+    <string name="setting_storage_ava">可用</string>
+ 
+    <string name="setting_systeminfo_title">系统信息</string>
+    <string name="setting_systeminfo_model">              型号:  </string>
+    <string name="setting_systeminfo_android_version">Android版本:  </string>
+    <string name="setting_systeminfo_hard_version">       CPU型号:  </string>
+    <string name="setting_systeminfo_kernelversion">      内核版本:  </string>
+    <string name="setting_systeminfo_version">          版本号:  </string>
+	<string name="delete_file_x">删除文件[%s]</string>
+</resources>

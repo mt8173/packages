@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">إعدادات HDMI</string>
+  <string name="hdmi_settings_summary">اضغط لتهيئة HDMI</string>
+  <string name="hdmi_video_resolution">دقة الفيديو</string>
+  <string name="hdmi_auto">تلقائي</string>
+  <string name="hdmi_scale_control">إعدادات حجم الفيديو</string>
+  <string name="hdmi_scale_no_scale">لا يوجد حجم</string>
+  <string name="hdmi_scale_scale_down">تقليل الحجم <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">خرج الصوت</string>
+  <string name="hdmi_audio_output_stereo">استريو</string>
+  <string name="hdmi_audio_output_multi_channel">متعدد القناة</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">مزود أفضل المؤثرات البصرية</string>
+  <!-- MiraVision end -->
+</resources>

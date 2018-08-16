@@ -1,0 +1,39 @@
+<resources>
+   	<style name="Theme.Start" parent="@android:style/Theme.Holo.NoActionBar.Overscan">
+        <item name="android:windowBackground">@drawable/bg_home_atet</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="start_bluetooth_gamepad_text">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/start_bluetooth_conn_gamepad_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">82.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="start_bluetooth_gamepad_iv">
+        <item name="android:layout_width">59.0dip</item>
+        <item name="android:layout_height">41.0dip</item>
+        <item name="android:layout_marginLeft">32.0dip</item>
+    </style>
+    <style name="start_bluetooth_step_tv">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@color/start_content_color1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">96.0dip</item>
+        <item name="android:layout_marginBottom">85.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    
+    <style name="start_setting_title_style">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">#ff3c3c3c</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

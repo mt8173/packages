@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI-inställningar</string>
+  <string name="hdmi_settings_summary">Klicka för att konfigurera HDMI</string>
+  <string name="hdmi_video_resolution">Videoupplösning</string>
+  <string name="hdmi_auto">"automatiskt"</string>
+  <string name="hdmi_scale_control">Inställningar för videoskalning</string>
+  <string name="hdmi_scale_no_scale">Ingen skalning</string>
+  <string name="hdmi_scale_scale_down">Skala ned <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Ljuduppspelning</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Flerkanalsljud</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Ger bästa visuella effekter</string>
+  <!-- MiraVision end -->
+</resources>

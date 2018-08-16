@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="435dip"
+        android:layout_height="250dip"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/game_emulater_location_desc" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:overScrollMode="never"
+        android:scrollbarThumbHorizontal="@color/gray"
+        android:scrollbars="none" >
+
+        <com.softwin.gbox.home.GridCellLayout
+            android:id="@+id/list_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+    </HorizontalScrollView>
+
+</FrameLayout>

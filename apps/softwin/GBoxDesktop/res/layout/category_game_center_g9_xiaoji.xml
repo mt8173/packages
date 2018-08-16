@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:setting="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/category_xiaoji"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:clickable="false"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:overScrollMode="never"
+    android:scrollbarThumbHorizontal="@color/gray"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/game_ref_xiaoji"
+            setting:name="@string/game_ref_xiaoji"
+            setting:style="@drawable/cs_rect_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            setting:next_up_view="@id/navigation_gamecenter"
+            setting:next_left_view="@id/global_no_move"
+        	setting:next_right_view="@id/global_no_move"
+        	setting:packageName="@string/package_xiaoji"
+            setting:icon="@drawable/game_ref_xiaoji" />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/game_ref_ko"
+            setting:name="@string/game_ref_ko"
+            setting:style="@drawable/cs_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_ref_xiaoji"
+            android:layout_marginTop="@dimen/settings_margin_left"
+            setting:next_left_view="@id/global_no_move"
+            setting:next_down_view="@+id/tablet_game_xiaoji"
+            setting:packageName="@string/package_ko"
+            setting:icon="@drawable/game_ref_ko"
+            setting:shadow="true" />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/game_ref_ppsspp"
+            setting:name="@string/game_ref_ppsspp"
+            setting:style="@drawable/cs_iblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/game_ref_ko"
+            android:layout_below="@+id/game_ref_xiaoji"
+            android:layout_marginLeft="@dimen/settings_margin_left"
+            android:layout_toRightOf="@+id/game_ref_ko"
+            setting:next_right_view="@id/global_no_move"
+            setting:next_down_view="@+id/tablet_game_xiaoji"
+            setting:packageName="@string/package_ppsspp"
+            setting:icon="@drawable/game_ref_ppsspp"
+            setting:shadow="true" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/settings_margin_left_rect"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:paddingTop="@dimen/settings_cell_margin"
+            android:paddingLeft="@dimen/settings_cell_margin"
+            android:layout_toRightOf="@+id/game_ref_xiaoji" >
+			<com.softwin.gbox.home.MyImageSwitcher
+			    android:layout_width="wrap_content"
+                android:layout_height="@dimen/settings_cell_size2_and_margin"
+                setting:imageArray="@array/game_xiaoji_desc"
+			     />
+        </FrameLayout>
+    </RelativeLayout>
+
+</HorizontalScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gamepad</string>
+    <string name="mode_title">Gamepad internal joystick mode:</string>
+    <string name="ps3_mode">PS3 joystick mode</string>
+    <string name="xbox_mode">XBOX joystick mode</string>
+    <string name="cf_mode">NULL joystick mode</string>
+    <string name="exchange_title">Exchange L1/L2 and R1/R2 key functions:</string>
+    <string name="exchange_mode">Exchange mode</string>
+    <string name="default_mode">Default mode</string>
+	<string name="action_settings">setting</string>  
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/setting_item_overlay"
+        android:layout_width="@dimen/settings_overlay_size"
+        android:layout_height="@dimen/settings_overlay_size"
+        android:visibility="invisible"
+        android:contentDescription="@string/global_desc"
+        android:clickable="false" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/setting_item_layout"
+            android:layout_width="@dimen/settings_cell_size"
+            android:layout_height="@dimen/settings_cell_size"
+            android:layout_marginLeft="@dimen/settings_cell_margin"
+            android:layout_marginTop="@dimen/settings_cell_margin"
+            android:background="@color/color14"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <ImageView
+                android:id="@+id/setting_item_icon"
+                style="@style/setting_item_icon"
+                android:contentDescription="@string/global_desc" />
+
+            <TextView
+                android:id="@+id/setting_item_name"
+                style="@style/setting_item_name"/>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/setting_item_shadow"
+            android:contentDescription="@string/global_desc"
+            android:layout_width="@dimen/settings_cell_size"
+            android:layout_height="@dimen/settings_shadow_height"
+            android:layout_marginLeft="@dimen/settings_cell_margin"
+            android:layout_marginTop="@dimen/settings_cell_margin_top_shadow"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</merge>

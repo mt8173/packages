@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">ការសិត HDMI</string>
+  <string name="hdmi_settings_summary">ចុចដើម្បីធ្វើរូបសណ្ឋាន HDMI</string>
+  <string name="hdmi_video_resolution">ដំណោះស្រាយវីដេអូ</string>
+  <string name="hdmi_auto">ស្វ័យប្រវត្តិ</string>
+  <string name="hdmi_scale_control">កំណត់កម្រិត (មាត្រដ្ឋាន) វីដេអូ</string>
+  <string name="hdmi_scale_no_scale">គ្មាន​ការដាក់កម្រិត (មាត្រដ្ឋាន)</string>
+  <string name="hdmi_scale_scale_down">ទម្លាក់កម្រិត (មាត្រដ្ឋាន) ចុះដល់ <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">ច្រក​ចេញ​អូឌីយោ</string>
+  <string name="hdmi_audio_output_stereo">ស្តេរីអូ</string>
+  <string name="hdmi_audio_output_multi_channel">បណ្ដាញ​ចម្រុះ</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">អ្នកផ្តល់​នូវ​ប្រសិទ្ធភាព​រូបភាព​ដ៏​ច្បាស់​បំផុត</string>
+  <!-- MiraVision end -->
+</resources>

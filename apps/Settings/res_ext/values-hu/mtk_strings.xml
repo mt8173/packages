@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI-beállítások</string>
+  <string name="hdmi_settings_summary">Kattintson rá a HDMI konfigurálásához</string>
+  <string name="hdmi_video_resolution">Videó felbontás</string>
+  <string name="hdmi_auto">Auto.</string>
+  <string name="hdmi_scale_control">Videó méretezési beállítások</string>
+  <string name="hdmi_scale_no_scale">Nincs átméretezés</string>
+  <string name="hdmi_scale_scale_down">Leméretezés: <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Audió kimenet</string>
+  <string name="hdmi_audio_output_stereo">Sztereó</string>
+  <string name="hdmi_audio_output_multi_channel">Többcsatornás</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">A legjobb vizuális effektusok szállítója</string>
+  <!-- MiraVision end -->
+</resources>

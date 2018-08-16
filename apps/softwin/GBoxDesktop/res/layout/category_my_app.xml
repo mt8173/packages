@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_my_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25.0dip"
+    android:clickable="false"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:overScrollMode="never"
+    android:scrollbarThumbHorizontal="@color/gray"
+    android:scrollbars="none"
+     >
+
+    <com.softwin.gbox.home.MyAppCellLayout
+        android:id="@+id/list_my_app"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        />
+
+</HorizontalScrollView>

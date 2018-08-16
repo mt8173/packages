@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI параметрлері</string>
+  <string name="hdmi_settings_summary">HDMI теңшеу үшін басыңыз</string>
+  <string name="hdmi_video_resolution">Бейне ажыратымдылығы</string>
+  <string name="hdmi_auto">Авто</string>
+  <string name="hdmi_scale_control">Бейнені масштабтау параметрлері</string>
+  <string name="hdmi_scale_no_scale">Масштабтаусыз</string>
+  <string name="hdmi_scale_scale_down">Масштабын кішірейту <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Аудио шығысы</string>
+  <string name="hdmi_audio_output_stereo">Стерео</string>
+  <string name="hdmi_audio_output_multi_channel">Бірнеше канал</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Ең тиімді визуалды әсерлерді жеткізуші</string>
+  <!-- MiraVision end -->
+</resources>

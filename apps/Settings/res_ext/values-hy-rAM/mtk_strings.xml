@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI կարգավորումներ</string>
+  <string name="hdmi_settings_summary">Կտտացնել HDMI-ը կազմաձևելու համար</string>
+  <string name="hdmi_video_resolution">Տեսատարլուծում</string>
+  <string name="hdmi_auto">"ինքնաշխատ"</string>
+  <string name="hdmi_scale_control">Վիդեո մասշտաբի կարգավորումներ</string>
+  <string name="hdmi_scale_no_scale">Առանց մասշտաբավորման</string>
+  <string name="hdmi_scale_scale_down">Մասշտաբն իջեցնել <xliff:g id="scale_percent">%s</xliff:g>%%-ով</string>
+  <string name="hdmi_audio_output">Ձայնի արտածում</string>
+  <string name="hdmi_audio_output_stereo">Ստերեո</string>
+  <string name="hdmi_audio_output_multi_channel">Բազմալիք</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Լավագույն տեսողական էֆեկտների տրամադրող</string>
+  <!-- MiraVision end -->
+</resources>

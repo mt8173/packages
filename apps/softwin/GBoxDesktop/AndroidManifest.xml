@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softwin.gbox.home"
+    android:versionCode="49"
+    android:versionName="5.3.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.softwin.gbox.home.BoxApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.softwin.gbox.home.Launcher"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.Start"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="xin.guide.home" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.softwin.gbox.home.OperationTipActivity" />
+        <activity
+            android:screenOrientation="nosensor"
+            android:name="com.softwin.gbox.home.test.Test"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity 
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.setting.GuideSetting" />
+        <activity 
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.setting.SystemInfoSetting" />
+        <activity 
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.setting.StorageSetting" />
+        <activity
+            android:screenOrientation="nosensor"
+            android:name="com.softwin.gbox.home.setting.ParentPasswordSetting"
+            android:theme="@style/MyDialogApp" />
+        <activity 
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.setting.ParentManagerSetting" />
+        <activity
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.setting.VoiceSetting" />
+        <activity 
+            android:screenOrientation="nosensor"
+	    android:name="com.softwin.gbox.home.Video" >
+        </activity>
+        <activity android:name="com.softwin.gbox.home.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="xin.guide.welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55497d0667e58e8eb9000414" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="XD-CN" >
+        </meta-data>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI-instellingen</string>
+  <string name="hdmi_settings_summary">Klik hier om HDMI in te stellen</string>
+  <string name="hdmi_video_resolution">Videoresolutie</string>
+  <string name="hdmi_auto">Autom.</string>
+  <string name="hdmi_scale_control">Instellingen videoschaal</string>
+  <string name="hdmi_scale_no_scale">Niet schalen</string>
+  <string name="hdmi_scale_scale_down">Verkleinen <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Audio-uitvoer</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Meerkanaals</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Levert de beste visuele effecten</string>
+  <!-- MiraVision end -->
+</resources>

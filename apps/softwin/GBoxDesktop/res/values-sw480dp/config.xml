@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="use_large_heap">false</bool>
+
+    <dimen name="global_status_bar_height">50dip</dimen>
+    <dimen name="global_app_icon_size">60.0dip</dimen>
+
+    <bool name="global_show_operation_tip">true</bool>
+
+    <dimen name="tab_textsize">20sp</dimen>
+    <dimen name="small_tab_textsize">17sp</dimen>
+    <dimen name="game_tab_textsize">12sp</dimen>
+    <!-- app cell layout -->
+    <dimen name="app_cell_width_and_margin">242dip</dimen>
+    <dimen name="app_cell_height_and_margin">242dip</dimen>
+    <dimen name="app_cell_width">135dip</dimen>
+    <dimen name="app_cell_height">135dip</dimen>
+    <dimen name="app_cell_width_gap">2dip</dimen>
+    <dimen name="app_cell_height_gap">2dip</dimen>
+    <dimen name="app_cell_margin_top">48.5dip</dimen>
+    <dimen name="app_cell_margin_left">50.5dip</dimen>
+    <dimen name="app_cell_margin_right">51dip</dimen>
+    <dimen name="app_cell_margin_bottom">50dip</dimen>
+    <dimen name="app_cell_margin_top_icon">30dip</dimen>
+    <dimen name="app_cell_margin_top_text">100dip</dimen>
+    <dimen name="app_cell_margin_top_shadow">184dip</dimen>
+    <dimen name="app_padding_top">110dip</dimen>
+    <dimen name="app_padding_left">60dip</dimen>
+    <dimen name="app_text_size">17sp</dimen>
+    <dimen name="app_cell_height2_and_gap">272dip</dimen>
+    <dimen name="app_cell_margin_left_">-58.5dip</dimen>
+    
+    <!-- settings layout -->
+    <dimen name="settings_overlay_width_rect">408dip</dimen>
+    <dimen name="settings_overlay_size">272dip</dimen>
+    <dimen name="settings_cell_size2_and_margin">275dip</dimen>
+    <dimen name="settings_cell_size">136dip</dimen>
+    <dimen name="settings_cell_margin">68dip</dimen>
+    <dimen name="settings_shadow_height">30dip</dimen>
+    <dimen name="settings_icon_size">70.0dip</dimen>
+    <dimen name="settings_cell_margin_top_icon">20dip</dimen>
+    <dimen name="settings_cell_margin_top_text">90dip</dimen>
+    <dimen name="settings_cell_margin_top_shadow">204dip</dimen>
+    <dimen name="settings_margin_top">35dip</dimen>
+    <dimen name="settings_margin_left">-134dip</dimen>
+    <dimen name="settings_margin_left_rect">-131dip</dimen>
+    <!-- settings_overlay_size -settings_cell_margin -settings_cell_size -gap -->
+    <dimen name="settings_v_custom_image">-66dip</dimen>
+    <dimen name="settings_h_image_custom">-65dip</dimen>
+
+    <!-- password_input_cell -->
+    <dimen name="ui_pwd_btn_width">107dip</dimen>
+    <dimen name="ui_pwd_btn_height">60dip</dimen>
+    <dimen name="ui_pwd_btn_textsize">30.0sp</dimen>
+
+</resources>

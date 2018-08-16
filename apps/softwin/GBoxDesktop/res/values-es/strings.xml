@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metro</string>
+
+    <!-- main navigation -->
+    <string name="tablet_home_tab_roms">EMULADORES</string>
+    <string name="tablet_home_tab_android">JUEGOS</string>
+    <string name="tablet_home_tab_apps">APPS</string>
+    <string name="atet_launcher_home_tab_settings">AJUSTES</string>
+
+ 	<string name="game_ref_xiaoji">Happy Chick</string>
+ 	<string name="game_ref_ko">Juegos KO</string>
+ 	<string name="game_ref_ppsspp">PPSSPP</string>
+
+    <!-- tablet game navigation -->
+    <string name="tablet_game_xiaoji">DESCARGAS</string>
+    <string name="tablet_game_arcade">ARCADE</string>
+    <string name="tablet_game_n64">N64</string>
+    <string name="tablet_game_gba">GBA</string>
+    <string name="tablet_game_sfc">SFC</string>
+    <string name="tablet_game_dc">DC</string>
+    <string name="tablet_game_psp">PSP</string>
+    <string name="tablet_game_ps1">PS1</string>
+    <string name="tablet_game_md">MD</string>
+
+    <!-- tablet sd -->
+    <string-array name="tablet_where_array">
+        <item>FLASH</item>
+        <item>TF card</item>
+    </string-array>
+    <string-array name="tablet_where_array_value">
+        <item>/mnt/sdcard</item><!-- mtp -->
+        <item>/mnt/external_sd</item>
+    </string-array>
+ 
+    <string name="tablet_no_where">Inserte TF card</string>
+    <string name="common_no_data">No hay datos!</string>
+    <string name="common_whilingLoad">Cargando...</string>
+    <string name="mygame_tip_cantdelete">Aplicacion dentro del sistema, no se puede eliminar.</string>
+    <string name="mygame_tip_not_install">App[%s] no esta desinstalada!</string>
+ 	<string name="launcher_search_btn_change">Cambie a otro equipo</string>
+ 
+    <string name="account_manager">Control Parental</string>
+    <string name="setting_brightness">Brillo</string>
+    <string name="system_info">Informacion</string>
+    <string name="storage">Almacenamiento</string>
+    <string name="advance_setting">Opciones</string>
+    <string name="voice_setting">Volumen</string>
+    <string name="wifi_manage">Ajustes de Wifi</string>
+    <string name="video_setting">Guia de video</string>
+
+    <string name="password_label">Ingrese clave</string>
+    <string name="parent_lock_roms">Bloquear emuladores</string>
+    <string name="parent_lock_android">Bloquear Juegos</string>
+    <string name="parent_lock_app">Bloquear apps</string>
+
+    <string name="parent_modify_password">Modificar clave de operacion</string>
+    <string name="parent_modify_password_tip">Ingrese nuevo password</string>
+    <string name="parent_modify_password_ok">confirmar</string>
+    <string name="parent_password_null">Clave no puede ser en blanco</string>
+    <string name="parent_password_length">Clave debe ser mayor a 5 digitos</string>
+    <string name="parent_password_success">Clave modificada correctamente</string>
+    <string name="parent_password_check_fail">Clave incorrecta</string>
+    <string name="result_lock">datos bloqueados, se puede desbloquear en Control Parental</string>
+
+    <string name="setting_systeminfo_title">Informacion de Sistema</string>
+    <string name="setting_systeminfo_model">"    No. de Modelo:  "</string>
+    <string name="setting_systeminfo_android_version">"  Version de Android: "</string>
+    <string name="setting_systeminfo_hard_version">"Version de Firmware: "</string>
+    <string name="setting_systeminfo_kernelversion">"     Version de Kernel: "</string>
+    <string name="setting_systeminfo_version">"       Numero de Compilacion: "</string>
+
+    <string name="setting_storage_title">Almacenamiento</string>
+    <string name="setting_storage_tf_tip">TF card: total</string>
+    <string name="setting_storage_sys_tip">Internal FLASH: total</string>
+    <string name="setting_storage_ava">Disponible</string>
+
+    <string name="setting_voice_title">Volumen de Sistema</string>
+    <string name="setting_voice_tip">Musica, Video, Juegos y otros</string>
+    <string name="setting_voice_lable">Volumen</string>
+
+
+    <string name="tip_menu_and_uninstall">"Y:Desinstalar   A:Confirmar   B:Regresar   +:Seleccionar"</string>
+    <string name="tip_menu">"A:Confirmar   B:Regresar   +:Seleccionar"</string>
+    <string name="activity_tip_continue">Presione cualquier tecla para continuar</string>
+
+    <string name="start_skip">Salto</string>
+    <string name="start_exit">Salir</string>
+    <string name="mp4_skip">salto</string>
+    <string name="global_loading">Cargando...</string>
+    <string name="gc_loading_text">cargando pagina...</string>
+    <string name="gc_loading_result_null">no hay juegos</string>
+</resources>

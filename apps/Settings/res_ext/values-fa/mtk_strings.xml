@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">تنظیمات HDMI</string>
+  <string name="hdmi_settings_summary">برای پیکربندی HDMI کلیک کنید</string>
+  <string name="hdmi_video_resolution">وضوح ویدئو</string>
+  <string name="hdmi_auto">خودکار</string>
+  <string name="hdmi_scale_control">تنظیمات مقیاس فیلم</string>
+  <string name="hdmi_scale_no_scale">بدون مقیاس</string>
+  <string name="hdmi_scale_scale_down">کاهش مقیاس <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">خروجی صدا</string>
+  <string name="hdmi_audio_output_stereo">استريو</string>
+  <string name="hdmi_audio_output_multi_channel">کانال چندگانه</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">ارائه‌دهنده بهترین جلوه های بصری</string>
+  <!-- MiraVision end -->
+</resources>

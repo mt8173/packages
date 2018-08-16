@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:setting="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/category_pc_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:clickable="false" >
+
+    <com.softwin.gbox.home.CustomShadowLayout
+        android:id="@+id/game_pc_game"
+        setting:name="@string/game_ref_xiaoji"
+        setting:style="@drawable/cs_rect_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        setting:packageName="@string/package_pc"
+        setting:icon="@drawable/game_ref_xiaoji"
+        setting:next_left_view="@id/global_no_move"
+        setting:next_right_view="@id/global_no_move"
+        setting:next_up_view="@id/navigation_pc_game" />
+
+    <ImageView
+         android:id="@+id/settings_pc_dest1"
+        android:layout_width="@dimen/settings_cell_size2_and_margin"
+        android:layout_height="@dimen/settings_cell_size"
+        android:layout_below="@+id/game_pc_game"
+        android:layout_marginLeft="@dimen/settings_cell_margin"
+        android:layout_marginTop="@dimen/settings_v_custom_image"
+        android:src="@drawable/game_pc01" />
+
+    <FrameLayout
+        android:id="@+id/settings_pc_dest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/settings_margin_left_rect"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:layout_toRightOf="@+id/game_pc_game"
+        android:paddingLeft="@dimen/settings_cell_margin"
+        android:paddingTop="@dimen/settings_cell_margin" >
+
+        <com.softwin.gbox.home.MyImageSwitcher
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_cell_size2_and_margin"
+            setting:imageArray="@array/game_pc_desc" />
+    </FrameLayout>
+
+</RelativeLayout>

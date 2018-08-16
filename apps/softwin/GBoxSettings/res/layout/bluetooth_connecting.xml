@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt_layout_connecting"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_marginTop="17.0dip" >
+
+    <ImageView
+        android:id="@+id/btnConnIcon"
+        android:layout_width="84.0dip"
+        android:layout_height="83.0dip"
+        android:layout_marginLeft="35.0dip"
+        android:background="@drawable/start_bluetooth_conn_icon" />
+
+    <ImageView
+        android:id="@+id/btnConnIconTween"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="47.0dip"
+        android:layout_marginTop="2.0dip"
+        android:background="@drawable/start_bluetooth_conn_progress" />
+
+    <TextView
+        android:id="@+id/tvConnTip"
+        style="@style/start_bluetooth_gamepad_text"
+        android:layout_marginLeft="33.0dip"
+        android:layout_toRightOf="@+id/btnConnIcon"
+        android:text="@string/start_bluetooth_gamepad_anim" />
+
+</RelativeLayout>

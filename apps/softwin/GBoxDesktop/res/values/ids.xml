@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item type="id" name="keyword_flow_item_id"/>
+     <item type="id" name="navigation_search"/>
+     <item type="id" name="category_emulator_single_arcade"/>
+     <item type="id" name="category_emulator_single_dc"/>
+     <item type="id" name="category_emulator_single_gba"/>
+     <item type="id" name="category_emulator_single_md"/>
+     <item type="id" name="category_emulator_single_n64"/>
+     <item type="id" name="category_emulator_single_nes"/>
+     <item type="id" name="category_emulator_single_ps1"/>
+     <item type="id" name="category_emulator_single_psp"/>
+     <item type="id" name="category_emulator_single_snes"/>
+     <item type="id" name="global_no_move"/>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_video"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color1" >
+
+    <VideoView
+        android:id="@+id/mp4_videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/mp4_layout_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#bb000000"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5.0dip"
+        android:paddingTop="5.0dip"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/mp4_imgbtn_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30.0dip"
+            android:background="@drawable/mp4_last_selector"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/mp4_imgbtn_replay"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/mp4_replay_selector"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/mp4_imgbtn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30.0dip"
+            android:background="@drawable/mp4_next_selector"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/mp4_imgbtn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30.0dip"
+            android:background="@drawable/mp4_finish_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_op_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#bb000000"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/select" />
+
+        <Button
+            android:id="@+id/btnVideoSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50.0dip"
+            android:text="@string/mp4_skip"
+            android:textSize="50.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

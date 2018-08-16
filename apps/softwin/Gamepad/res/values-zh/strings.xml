@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手柄模式切换</string>
+    <string name="mode_title">内置手柄模式选择:</string>
+    <string name="ps3_mode">PS3 手柄模式</string>
+    <string name="xbox_mode">XBOX 手柄模式</string>
+    <string name="cf_mode">穿越火线 模式(需要开启按键映射玩)</string>
+    <string name="exchange_title">互换 L1/L2 和 R1/R2 按键功能:</string>
+    <string name="exchange_mode">互换模式</string>
+    <string name="default_mode">默认模式</string>
+
+</resources>

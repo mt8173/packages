@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_home_atet" >
+
+    <RelativeLayout
+        android:layout_width="605.0dip"
+        android:layout_height="336.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/setting_storage" >
+
+        <TextView
+            style="@style/start_setting_title_style"
+            android:text="@string/setting_storage_title" />
+
+        <TextView
+            android:id="@+id/tvSystemTip"
+            style="@style/setting_starage_tip1"
+            android:layout_marginLeft="55.0dip"
+            android:layout_marginTop="73.0dip"
+            android:text="@string/setting_storage_tf_tip" />
+
+        <TextView
+            android:id="@+id/tvTotalSystemCount"
+            style="@style/setting_starage_tip1"
+            android:layout_marginTop="73.0dip"
+            android:layout_marginLeft="220.0dip" />
+
+        <ImageView
+            android:id="@+id/ivSystem"
+            android:layout_width="135.0dip"
+            android:layout_height="28.0dip"
+            android:layout_below="@+id/tvSystemTip"
+            android:layout_marginLeft="62.0dip"
+            android:layout_marginTop="11.0dip"
+            android:visibility="gone"
+            android:background="@drawable/settings_storage_show" />
+
+        <SeekBar
+            android:id="@+id/seekBarSystem"
+            style="@style/setting_storage_seekbar1"
+            android:layout_below="@+id/tvSystemTip"
+            android:layout_marginLeft="44.0dip" />
+
+        <TextView
+            android:id="@+id/tvAvaSystemCount"
+            style="@style/setting_starage_tip2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/seekBarSystem"
+            android:layout_marginRight="44.0dip" />
+
+        <TextView
+            android:id="@+id/tvAvaSystem"
+            style="@style/setting_starage_tip2"
+            android:layout_below="@+id/seekBarSystem"
+            android:layout_toLeftOf="@+id/tvAvaSystemCount"
+            android:text="@string/setting_storage_ava" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/layoutSdcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAvaSystem"
+            android:layout_marginTop="27.0dip" >
+
+            <TextView
+                android:id="@+id/tvSdcardTip"
+                style="@style/setting_starage_tip1"
+                android:layout_alignParentTop="true"
+                android:text="@string/setting_storage_sys_tip" />
+
+            <TextView
+                android:id="@+id/tvTotalSdcardCount"
+                style="@style/setting_starage_tip1"
+                android:layout_alignParentTop="true"
+            	android:layout_marginLeft="215.0dip" />
+
+            <SeekBar
+                android:id="@+id/seekBarSdcard"
+                style="@style/setting_storage_seekbar2"
+                android:layout_below="@+id/tvSdcardTip"
+                android:layout_marginLeft="44.0dip" />
+
+            <TextView
+                android:id="@+id/tvAvaSdcardCount"
+                style="@style/setting_starage_tip2"
+                android:layout_below="@+id/seekBarSdcard"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="44.0dip" />
+
+            <TextView
+                android:id="@+id/tvAvaSdcard"
+                style="@style/setting_starage_tip2"
+                android:layout_below="@+id/seekBarSdcard"
+                android:layout_toLeftOf="@+id/tvAvaSdcardCount"
+                android:text="@string/setting_storage_ava" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/storage_tip"
+        android:layout_width="100.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/setting_bottom_back" />
+
+</RelativeLayout>

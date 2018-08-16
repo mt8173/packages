@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI 设定</string>
+  <string name="hdmi_settings_summary">点击设定 HDMI</string>
+  <string name="hdmi_video_resolution">视频分辨率</string>
+  <string name="hdmi_auto">自动</string>
+  <string name="hdmi_scale_control">视频比例控制</string>
+  <string name="hdmi_scale_no_scale">不缩放</string>
+  <string name="hdmi_scale_scale_down">缩小<xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">音频输出</string>
+  <string name="hdmi_audio_output_stereo">立体声</string>
+  <string name="hdmi_audio_output_multi_channel">多声道</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">提供最佳的视觉显示效果</string>
+  <!-- MiraVision end -->
+</resources>

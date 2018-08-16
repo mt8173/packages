@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Nastavení HDMI</string>
+  <string name="hdmi_settings_summary">Klepnutím nakonfigurujte HDMI</string>
+  <string name="hdmi_video_resolution">Rozlišení videa</string>
+  <string name="hdmi_auto">Automaticky</string>
+  <string name="hdmi_scale_control">Nastavení Video stupnice</string>
+  <string name="hdmi_scale_no_scale">No měřítka</string>
+  <string name="hdmi_scale_scale_down">Měřítko se <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Výstup zvuku</string>
+  <string name="hdmi_audio_output_stereo">Stereo</string>
+  <string name="hdmi_audio_output_multi_channel">Více kanálů</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Poskytovatel nejlepších vizuálních efektů</string>
+  <!-- MiraVision end -->
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.softwin.gbox.home.GameCenterContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_game_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/view_loadcontent" />
+
+    <com.softwin.gbox.home.GameCenterHorizontalScrollView
+        android:id="@+id/game_center_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25.0dip"
+        android:clickable="false"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:overScrollMode="never"
+        android:scrollbarThumbHorizontal="@color/gray"
+        android:scrollbars="none" >
+
+        <com.softwin.gbox.home.GameCenterPage
+            android:id="@+id/game_center_page"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+    </com.softwin.gbox.home.GameCenterHorizontalScrollView>
+
+    <RadioGroup
+        android:id="@+id/nav_game_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="-10dip"
+        android:layout_marginLeft="30dip"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/gc_nav_arcade"
+            style="@style/NavigationItem.Small"
+            android:nextFocusLeft="@id/gc_nav_arcade"
+            android:text="@string/game_center_nav_arcade" />
+
+        <RadioButton
+            android:id="@+id/gc_nav_2"
+            style="@style/NavigationItem.Small"
+            android:text="@string/game_center_nav_n64" />
+
+        <RadioButton
+            android:id="@+id/gc_nav_4"
+            style="@style/NavigationItem.Small"
+            android:text="@string/game_center_nav_psp" />
+
+        <RadioButton
+            android:id="@+id/gc_nav_3"
+            style="@style/NavigationItem.Small"
+            android:text="@string/game_center_nav_ps1"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/gc_nav_dc"
+            style="@style/NavigationItem.Small"
+            android:text="@string/game_center_nav_dc" />
+
+        <RadioButton
+            android:id="@+id/gc_nav_5"
+            style="@style/NavigationItem.Small"
+            android:nextFocusRight="@id/gc_nav_5"
+            android:text="@string/game_center_nav_5" />
+    </RadioGroup>
+
+</com.softwin.gbox.home.GameCenterContainer>

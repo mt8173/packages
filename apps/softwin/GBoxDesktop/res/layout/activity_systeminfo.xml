@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_home_atet" >
+
+    <RelativeLayout
+        android:layout_width="605.0dip"
+        android:layout_height="331.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/setting_systeminfo_bg" >
+
+        <TextView
+            style="@style/start_setting_title_style"
+            android:text="@string/setting_systeminfo_title" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60.0dip"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/setting_systeminfo_layout_style" >
+
+                <TextView
+                    style="@style/setting_systeminfo_textleft_style"
+                    android:paddingLeft="5.0dip"
+                    android:text="@string/setting_systeminfo_model" />
+
+                <TextView
+                    android:id="@+id/setting_systeminfo_model"
+                    style="@style/setting_systeminfo_textright_style" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_systeminfo_layout_style" >
+
+                <TextView
+                    style="@style/setting_systeminfo_textleft_style"
+                    android:paddingLeft="3.0dip"
+                    android:text="@string/setting_systeminfo_android_version" />
+
+                <TextView
+                    android:id="@+id/setting_systeminfo_androidversion"
+                    style="@style/setting_systeminfo_textright_style" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_systeminfo_layout_style" >
+
+                <TextView
+                    style="@style/setting_systeminfo_textleft_style"
+                    android:paddingLeft="2.0dip"
+                    android:text="@string/setting_systeminfo_hard_version" />
+
+                <TextView
+                    android:id="@+id/setting_systeminfo_hard_version"
+                    style="@style/setting_systeminfo_textright_style" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_systeminfo_layout_style" >
+
+                <TextView
+                    style="@style/setting_systeminfo_textleft_style"
+                    android:paddingLeft="2.0dip"
+                    android:text="@string/setting_systeminfo_kernelversion" />
+
+                <TextView
+                    android:id="@+id/setting_systeminfo_kernel_version"
+                    style="@style/setting_systeminfo_textright_style" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_systeminfo_layout_style" >
+
+                <TextView
+                    style="@style/setting_systeminfo_textleft_style"
+                    android:text="@string/setting_systeminfo_version" />
+
+                <TextView
+                    android:id="@+id/setting_systeminfo_version"
+                    style="@style/setting_systeminfo_textright_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/systeminfo_tip"
+        android:layout_width="100.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/setting_bottom_back" />
+
+</RelativeLayout>

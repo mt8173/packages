@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">הגדרות HDMI</string>
+  <string name="hdmi_settings_summary">לחץ כדי לקבוע תצורת HDMI</string>
+  <string name="hdmi_video_resolution">רזולוציית וידאו</string>
+  <string name="hdmi_auto">אוטומטי</string>
+  <string name="hdmi_scale_control">הגדרות קנה מידה וידאו</string>
+  <string name="hdmi_scale_no_scale">אין קנה מידה</string>
+  <string name="hdmi_scale_scale_down">לקצץ <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">פלט שמע</string>
+  <string name="hdmi_audio_output_stereo">סטריאו</string>
+  <string name="hdmi_audio_output_multi_channel">רב ערוצי</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">מספק את האפקט הוויזואלי הטוב ביותר</string>
+  <!-- MiraVision end -->
+</resources>

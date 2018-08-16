@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">การตั้งค่า HDMI</string>
+  <string name="hdmi_settings_summary">คลิกเพื่อตั้งค่า HDMI</string>
+  <string name="hdmi_video_resolution">ความละเอียดของภาพ</string>
+  <string name="hdmi_auto">อัตโนมัติ</string>
+  <string name="hdmi_scale_control">การตั้งค่าระดับเสียง</string>
+  <string name="hdmi_scale_no_scale">ไม่มีการปรับ</string>
+  <string name="hdmi_scale_scale_down">ไต่ลง <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">เอาต์พุตเสียง</string>
+  <string name="hdmi_audio_output_stereo">"สเตอริโอ"</string>
+  <string name="hdmi_audio_output_multi_channel">หลายแชนเนล</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">ให้เอฟเฟ็กต์การแสดงผลที่ดีที่สุด</string>
+  <!-- MiraVision end -->
+</resources>

@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    android:sharedUserId="android.uid.system"
+    package="com.softwin.gbox.settings"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/gbox_settings_app_name"
+        android:theme="@style/Theme.Start" >
+        <activity
+            android:name="com.android.settings.wifi.MainActivity"
+            android:noHistory="true"
+            android:immersive="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.Start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="xin.guide.wifi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.softwin.gbox.settings.time.TimeSettings"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="nosensor"
+            android:exported="true" />
+        <activity
+            android:name="com.softwin.gbox.home.setting.HomeSwitchSetting"
+			android:icon="@drawable/home_switch"
+        	android:label="@string/setting_home_switch"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.softwin.gbox.settings.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="xin.guide.start" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.softwin.gbox.settings.time.BackgroundTimeUpdater" >
+            <intent-filter>
+                <action android:name="xin.time.bg.update" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

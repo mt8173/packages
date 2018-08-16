@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/global_status_bar_height"
+        android:layout_gravity="bottom|right|center"
+        layout="@layout/layout_operation_tip" />
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="@dimen/datetimedialog_width"
+        android:layout_height="@dimen/datetimedialog_height"
+        android:layout_gravity="center"
+        android:background="@drawable/setting_list_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="47.0px"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="#ff3c3c3c"
+            android:textSize="24.0px" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/datetime_container_height"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/time_setting_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:text="@string/time_auto_check"
+                android:textColor="#ff3c3c3c"
+                android:textSize="23.0px" />
+
+            <TextClock
+                android:id="@+id/time_setting_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:format12Hour="H:mm"
+                android:text="@string/time_auto_check"
+                android:textColor="#ff3c3c3c"
+                android:textSize="23.0px"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="@dimen/datetime_circle_height"
+                android:layout_height="@dimen/datetime_circle_height"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/time_rotate_bg" />
+
+            <ProgressBar
+                android:id="@+id/time_setting_grogress"
+                style="?android:style/Widget.ProgressBar.Large.Inverse"
+                android:layout_width="@dimen/date_rotate_height"
+                android:layout_height="@dimen/date_rotate_height"
+                android:layout_gravity="center"
+                android:indeterminateBehavior="repeat"
+                android:indeterminateDrawable="@drawable/progress_drawable_large"
+                android:indeterminateDuration="500"
+                android:indeterminateOnly="true" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/time_setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/setting_btndrawab_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:onClick="onCancal"
+            android:text="@string/time_cancel"
+            android:textSize="24.0px" >
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+</merge>

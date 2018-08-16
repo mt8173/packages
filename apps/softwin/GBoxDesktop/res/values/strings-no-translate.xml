@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="global_desc"></string>
+    <string name="ui_password_title1">@string/password_label</string>
+    <string name="ui_password_text_1">1</string>
+    <string name="ui_password_text_2">2</string>
+    <string name="ui_password_text_3">3</string>
+    <string name="ui_password_text_4">4</string>
+    <string name="ui_password_text_5">5</string>
+    <string name="ui_password_text_6">6</string>
+    <string name="ui_password_text_7">7</string>
+    <string name="ui_password_text_8">8</string>
+    <string name="ui_password_text_9">9</string>
+    <string name="ui_password_text_0">0</string>
+    <string name="ui_password_text_length_0">_ _ _ _ _ _</string>
+
+    <string name="package_xiaoji">com.xiaoji.emulator</string>
+    <string name="package_ko">cn.vszone.ko.tv.arena</string>
+    <string name="package_ppsspp">org.ppsspp.ppsspp</string>
+    <string name="package_pc">cn.gloud.client</string>
+    <string name="package_help_app">com.sanbuapp.wade892917520_4</string>
+
+</resources>

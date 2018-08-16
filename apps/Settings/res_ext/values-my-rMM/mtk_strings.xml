@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI စနစ်များ</string>
+  <string name="hdmi_settings_summary">HDMI ကို သီးသန့်စီစဉ်ထားရှိရန် နှိပ်ပါ</string>
+  <string name="hdmi_video_resolution">ဗီဒီယို ပြတ်သားမှု</string>
+  <string name="hdmi_auto">အလိုအလျောက်</string>
+  <string name="hdmi_scale_control">ဗီဒီယို စကေး အပြင်အဆင်များ</string>
+  <string name="hdmi_scale_no_scale">စကေးမရှိ</string>
+  <string name="hdmi_scale_scale_down">စကေးလျော့ <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">အသံအထွက်</string>
+  <string name="hdmi_audio_output_stereo">စတီရီယို</string>
+  <string name="hdmi_audio_output_multi_channel">မာတီ ချန်နယ်</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">ထောက်ပံ့သူ အကောင်းဆုံး မြင်ကွင်း သက်ရောက်မှုများ</string>
+  <!-- MiraVision end -->
+</resources>

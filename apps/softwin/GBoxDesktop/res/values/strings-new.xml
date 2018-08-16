@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="atet_launcher_home_tab_video">VIDEO</string>
+    <string name="atet_launcher_home_tab_gameseach">MARKET</string>
+
+    <string name="atet_launcher_home_tab_myapp">APP</string>
+    <string name="tablet_home_tab_netgame">NETGAME</string>
+    <string name="tablet_home_tab_service">HELP</string>
+    <string name="tablet_home_tab_pc">PCGAME</string>
+    <string name="atet_launcher_home_tab_gamecenter">EMULATOR</string>
+    <string name="atet_launcher_home_tab_mygame">GAME</string>
+
+    <!-- BOX game navigation -->
+    <string name="game_center_nav_arcade">ARCADE</string>
+    <string name="game_center_nav_n64">N64</string>
+    <string name="game_center_nav_ps1">Nostalgic classics</string>
+    <string name="game_center_nav_psp">PSP</string>
+    <string name="game_center_nav_5">Somatic</string>
+    <string name="game_center_nav_dc">DC</string>
+
+    <!-- BOX -->
+    <string name="app_manage">Screen adjustment</string>
+    <string name="factory">Factory reset</string>
+    <string name="time_setting">Time</string>
+    <string name="start_language_title">Language selection</string>
+    <string name="start_account_title">Parent configuration</string>
+
+    <string name="parent_lock_vc_label">Lock video center</string>
+    <string name="parent_lock_gc_label">Lock game center</string>
+    <string name="parent_lock_mg_label">Lock my games</string>
+    <string name="parent_lock_ma_label">Lock my apps</string>
+    <string name="parent_lock_gd_label">Lock game download</string>
+    <string name="parent_lock_netgame">Lock NETGAME</string>
+    <string name="parent_lock_apps">Lock my apps</string>
+    <string name="parent_lock_pc">Lock PCGAME</string>
+
+    <string name="g68_gc_back">Back</string>
+    <string name="result_game_null">Please buy a game card or do it according to the way of website</string>
+    <string name="file_check">Checking data packet to see if it\'s available</string>
+    <string name="file_copy_start">Start copying data files</string>
+    <string name="file_copy_progress">Already copied %1$s[%2$s]</string>
+
+    <string name="start_guider_vedio_txta">Gamepad introduction</string>
+    <string name="start_guider_vedio_txtb">Playing introduction</string>
+</resources>

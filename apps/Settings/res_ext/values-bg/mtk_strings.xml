@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Настройки HDMI</string>
+  <string name="hdmi_settings_summary">Щракнете за конфигуриране на HDMI</string>
+  <string name="hdmi_video_resolution">Разрешителна способност</string>
+  <string name="hdmi_auto">"автоматична"</string>
+  <string name="hdmi_scale_control">Настройки мащаб на видео</string>
+  <string name="hdmi_scale_no_scale">Без промяна</string>
+  <string name="hdmi_scale_scale_down">Намаляване <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Аудио изход</string>
+  <string name="hdmi_audio_output_stereo">Стерео</string>
+  <string name="hdmi_audio_output_multi_channel">Мултиканален</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Осигурява отлични визуални ефекти</string>
+  <!-- MiraVision end -->
+</resources>

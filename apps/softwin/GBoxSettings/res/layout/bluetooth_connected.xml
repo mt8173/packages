@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt_layout_conntected"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_marginTop="10.0dip">
+
+    <ImageView
+        android:id="@+id/btnConnGamepad3"
+        style="@style/start_bluetooth_gamepad_iv"
+        android:background="@drawable/start_bluetooth_gamepad2" />
+
+    <TextView
+        android:id="@+id/bt_device_name"
+        style="@style/start_bluetooth_gamepad_text"
+        android:layout_toRightOf="@+id/btnConnGamepad3"
+        android:text="@string/start_bluetooth_gamepad3" />
+
+</RelativeLayout>

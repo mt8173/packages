@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main navigation -->
+    <string name="atet_launcher_home_tab_video">视频中心</string>
+    <string name="atet_launcher_home_tab_gameseach">游戏下载</string>
+    <string name="atet_launcher_home_tab_gamecenter">游戏中心</string>
+    <string name="atet_launcher_home_tab_mygame">我的游戏</string>
+    <string name="atet_launcher_home_tab_myapp">我的应用</string>
+    <string name="atet_launcher_home_tab_settings">设置</string>
+    <string name="tablet_home_tab_roms">经典游戏</string>
+    <string name="tablet_home_tab_android">安卓游戏</string>
+    <string name="tablet_home_tab_netgame">热门网游</string>
+    <string name="tablet_home_tab_apps">应用</string>
+    <string name="tablet_home_tab_service">帮助</string>
+    <string name="tablet_home_tab_pc">PC大作</string>
+    <!-- game navigation -->
+    <string name="game_center_nav_arcade">经典双打</string>
+    <string name="game_center_nav_n64">趣味休闲</string>
+    <string name="game_center_nav_ps1">怀旧经典</string>
+    <string name="game_center_nav_psp">游戏大作</string>
+    <string name="game_center_nav_5">体感游戏</string>
+    <string name="game_center_nav_dc">经典DC</string>
+    <!-- tablet game navigation -->
+    <string name="tablet_game_arcade">ARCADE</string>
+    <string name="tablet_game_xiaoji">EMULATOR</string>
+
+    <string-array name="tablet_where_array">
+        <item>内部存储</item>
+        <item>外部TF卡</item>
+    </string-array>
+
+    <string name="g68_gc_back">返回上一级</string>
+    <string name="global_loading">加载中</string>
+    <string name="gc_loading_text">正在加载界面...</string>
+    <string name="gc_loading_result_null">没有游戏</string>
+    <string name="mp4_skip">跳过</string>
+    <string name="password_label">请输入管理密码</string>
+    <string name="parent_lock_vc_label">锁定视频中心</string>
+    <string name="parent_lock_gc_label">锁定游戏中心</string>
+    <string name="parent_lock_mg_label">锁定我的游戏</string>
+    <string name="parent_lock_ma_label">锁定我的应用</string>
+    <string name="parent_lock_gd_label">锁定游戏下载</string>
+    <string name="parent_lock_roms">锁定经典游戏</string>
+    <string name="parent_lock_android">锁定安卓游戏</string>
+    <string name="parent_lock_netgame">锁定热门网游</string>
+    <string name="parent_lock_apps">锁定所有应用</string>
+    <string name="parent_lock_pc">锁定PC大作</string>
+    <string name="parent_lock_app">锁定应用</string>
+    <string name="parent_modify_password">修改管理密码</string>
+    <string name="parent_modify_password_tip">请输入新密码</string>
+    <string name="parent_modify_password_ok">确定</string>
+    <string name="parent_password_null">密码不能为空</string>
+    <string name="parent_password_length">密码的长度要大于5</string>
+    <string name="parent_password_success">管理密码修改成功</string>
+    <string name="parent_password_check_fail">密码错误</string>
+    <string name="result_lock">内容已经被锁定，可以在家长管理中解锁</string>
+    <string name="result_game_null">请购买游戏卡或按照官网方式制作</string>
+    <string name="file_check">"正在检查应用的数据包是否可用..."</string>
+    <string name="file_copy_start">"开始复制数据文件"</string>
+    <string name="file_copy_progress">已经复制了%1$s[%2$s]</string>
+    <string name="activity_tip_continue">按任意键继续 </string>
+
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+	<!-- bluetooth -->
+	<string name="gbox_settings_app_name">GBox设置</string>
+	<string name="start_bluetooth_title">手柄适配向导</string>
+    <string name="start_bluetooth_success_title">手柄适配情况</string>
+    <string name="start_bluetooth_success_content">手柄适配成功</string>
+    <string name="start_bluetooth_next_tip">您可用其他设备进行选择操作</string>
+    <string name="start_bluetooth_tip1">正在适配手柄中，请按如下步骤操作：</string>
+    <string name="start_bluetooth_tip2">已经连接的手柄......</string>
+    <string name="start_bluetooth_step1">第一步：打开手柄电源</string>
+    <string name="start_bluetooth_step2">第二步：用手按住PAIR键闪烁后，松开手指</string>
+    <string name="start_bluetooth_gamepad1">游戏手柄①</string>
+    <string name="start_bluetooth_gamepad2">游戏手柄②</string>
+    <string name="start_bluetooth_gamepad3">游戏手柄3</string>
+    <string name="start_bluetooth_gamepad_anim">正在适配中...</string>
+    <string name="start_bluetooth_gamepad_conn1">第一个手柄适配中......</string>
+    <string name="start_bluetooth_gamepad_conn_continue_tip">第一个手柄适配成功，如需继续请点击“继续连接”</string>
+    <string name="start_bluetooth_gamepad_conn2">第二个手柄适配中，无需适配请点击“下一步”</string>
+    <string name="start_bluetooth_gamepad_conn2_isfromsetting">第二个手柄适配中，无需适配请点击“退出”</string>
+    <string name="start_bluetooth_gamepad_conn3">已连接两个手柄，2秒后将自动跳转...</string>
+    <string name="start_bluetooth_gamepad_conn3_isfromsetting">已连接两个手柄，2秒后将自动退出...</string>
+    <string name="start_bluetooth_next_btn">下一步</string>
+    <string name="start_bluetooth_continue_btn">继续连接</string>
+    <string name="start_bluetooth_exit_btn">退出</string>
+
+	<string-array name="start_bluetooth_title">
+	    <item>第一个手柄适配中</item>
+	    <item>第二个手柄适配中</item>
+	    <item>第三个手柄适配中</item>
+	    <item>第四个手柄适配中</item>
+	    <item>第N个手柄适配中</item>
+	</string-array>
+	
+	<!-- time -->
+	<string name="time">时间</string>
+    <string name="time_auto_check">自动校时</string>
+    <string name="time_cancel">取消</string>
+    <string name="time_retry">重试</string>
+    <string name="time_update_fail">更新失败</string>
+    
+    <string name="setting_home_switch">"桌面切换"</string>
+</resources>

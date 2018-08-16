@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:setting="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_setup_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="25.0dip"
+    android:layout_marginTop="20dip"
+    android:clickable="false"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:overScrollMode="never"
+    android:scrollbarThumbHorizontal="@color/gray"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_account_setting_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_margin_top" 
+            setting:icon="@drawable/setting_logo_account" 
+            setting:name="@string/account_manager" 
+            setting:style="@drawable/cs_rect_red" 
+            />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_advanced_settings_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_account_setting_content"
+            android:layout_marginTop="@dimen/settings_margin_left" 
+            setting:icon="@drawable/setting_logo_advance" 
+            setting:name="@string/advance_setting" 
+            setting:style="@drawable/cs_green" 
+            setting:shadow="true"
+            />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_settings_voice_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_account_setting_content"
+            android:layout_marginLeft="@dimen/settings_margin_left"
+            android:layout_alignTop="@+id/home_advanced_settings_content"
+            android:layout_toRightOf="@+id/home_advanced_settings_content"
+            setting:icon="@drawable/setting_logo_gamepad" 
+            setting:name="@string/gamepad_setting" 
+            setting:style="@drawable/cs_iblue" 
+            setting:shadow="true" />
+<!-- 
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_update_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/settings_margin_left_rect"
+            android:layout_marginTop="@dimen/settings_margin_top" 
+            android:layout_toRightOf="@+id/home_account_setting_content"
+            setting:icon="@drawable/setting_logo_update" 
+            setting:name="@string/update" 
+            setting:style="@drawable/cs_blue" 
+            />
+-->
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_update_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/settings_margin_left_rect"
+            android:layout_marginTop="@dimen/settings_margin_top" 
+            android:layout_toRightOf="@+id/home_account_setting_content"
+            setting:icon="@drawable/setting_logo_brightness" 
+            setting:name="@string/setting_brightness" 
+            setting:style="@drawable/cs_blue" 
+            />
+
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_systeminfo_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/settings_margin_left"
+            android:layout_alignTop="@+id/home_setting_update_content"
+            android:layout_toRightOf="@+id/home_setting_update_content" 
+	    setting:icon="@drawable/setting_logo_systeminfo" 
+            setting:name="@string/system_info" 
+            setting:style="@drawable/cs_red" 
+            />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_wifi_manager_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_setting_update_content"
+            android:layout_marginLeft="@dimen/settings_margin_left"
+            android:layout_alignTop="@+id/home_advanced_settings_content"
+            android:layout_toRightOf="@+id/home_settings_voice_content"
+            setting:icon="@drawable/setting_logo_wifi" 
+            setting:name="@string/wifi_manage" 
+            setting:style="@drawable/cs_rect_yellow" 
+            setting:shadow="true"
+            />
+        
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_storage_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/settings_margin_left"
+            android:layout_alignTop="@+id/home_setting_update_content"
+            android:layout_toRightOf="@+id/home_setting_systeminfo_content" 
+            setting:icon="@drawable/setting_logo_storage" 
+            setting:name="@string/storage" 
+            setting:style="@drawable/cs_green" 
+            />
+
+        <com.softwin.gbox.home.CustomShadowLayout
+            android:id="@+id/home_setting_video_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_setting_storage_content"
+            android:layout_marginLeft="@dimen/settings_margin_left_rect"
+            android:layout_alignTop="@+id/home_advanced_settings_content"
+            android:layout_toRightOf="@+id/home_setting_wifi_manager_content" 
+            setting:icon="@drawable/setting_logo_video" 
+            setting:name="@string/video_setting" 
+            setting:style="@drawable/cs_red"
+            setting:shadow="true"/>
+    </RelativeLayout>
+
+</FrameLayout>

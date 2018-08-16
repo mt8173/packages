@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="datetimedialog_width">600.0dip</dimen>
+    <dimen name="datetimedialog_height">329.0dip</dimen>
+    <dimen name="datetime_circle_height">170.0dip</dimen>
+    <dimen name="date_rotate_height">144.0dip</dimen>
+    <dimen name="datetime_container_height">232.0dip</dimen>
+    <dimen name="dateauto_radiu">8.0dip</dimen>
+</resources>

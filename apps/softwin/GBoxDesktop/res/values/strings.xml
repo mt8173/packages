@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metro</string>
+
+    <!-- main navigation -->
+    <string name="tablet_home_tab_roms">EMULATOR</string>
+    <string name="tablet_home_tab_android">GAME</string>
+    <string name="tablet_home_tab_apps">APP</string>
+    <string name="atet_launcher_home_tab_settings">SETTING</string>
+
+    <string name="game_ref_xiaoji">Happy Chick</string>
+    <string name="game_ref_ko">KO game</string>
+    <string name="game_ref_ppsspp">PPSSPP</string>
+
+    <!-- tablet game navigation -->
+    <string name="tablet_game_xiaoji">DOWNLOAD</string>
+    <string name="tablet_game_arcade">ARCADE</string>
+    <string name="tablet_game_n64">N64</string>
+    <string name="tablet_game_gba">GBA</string>
+    <string name="tablet_game_sfc">SFC</string>
+    <string name="tablet_game_dc">DC</string>
+    <string name="tablet_game_psp">PSP</string>
+    <string name="tablet_game_ps1">PS1</string>
+    <string name="tablet_game_md">MD</string>
+
+    <!-- tablet sd -->
+    <string-array name="tablet_where_array">
+        <item>FLASH</item>
+        <item>TF card</item>
+    </string-array>
+    <string-array name="tablet_where_array_value">
+        <item>/mnt/sdcard</item><!-- mtp -->
+        <item>/mnt/external_sd</item>
+    </string-array>
+
+    <string name="tablet_no_where">Insert TF card</string>
+    <string name="common_no_data">Dear! no data!</string>
+    <string name="common_no_net_game">1) the Preinstall_files files are copied to the external TF card\n2) in the boot state and insert TF card into the game\n3) wait a few seconds and follow the prompts.</string>
+    <string name="common_whilingLoad">Loading...</string>
+    <string name="mygame_tip_cantdelete">Application inside system, can\'t delete!</string>
+    <string name="mygame_tip_not_install">App[%s] is not uninstall!</string>
+    <string name="launcher_search_btn_change">Change another team</string>
+
+    <string name="account_manager">Parent manage</string>
+    <string name="setting_brightness">Brightness</string>
+    <string name="system_info">System info</string>
+    <string name="storage">Storage</string>
+    <string name="advance_setting">Advanced \n   setting</string>
+    <string name="voice_setting">Voice</string>
+    <string name="gamepad_setting">Gamepad</string>
+    <string name="wifi_manage">Wi-Fi manage</string>
+    <string name="video_setting">Video guide</string>
+
+    <string name="password_label">Please enter password</string>
+    <string name="parent_lock_roms">Lock EMULATOR</string>
+    <string name="parent_lock_android">Lock GAME</string>
+    <string name="parent_lock_app">Lock APP</string>
+
+    <string name="parent_modify_password">Modify operation password</string>
+    <string name="parent_modify_password_tip">Please enter new password</string>
+    <string name="parent_modify_password_ok">Confirm</string>
+    <string name="parent_password_null">Password can\'t be vacant</string>
+    <string name="parent_password_length">Password length should be over 5</string>
+    <string name="parent_password_success">Operation password modified successfully</string>
+    <string name="parent_password_check_fail">Password wrong</string>
+    <string name="result_lock">Data locked, can be unlocked in Parent manage.</string>
+
+    <string name="setting_systeminfo_title">System info</string>
+    <string name="setting_systeminfo_model">"    Model number: "</string>
+    <string name="setting_systeminfo_android_version">"  Android version: "</string>
+    <string name="setting_systeminfo_hard_version">"          CPU model: "</string>
+    <string name="setting_systeminfo_kernelversion">"     Kernel version: "</string>
+    <string name="setting_systeminfo_version">"       Build number: "</string>
+
+    <string name="setting_storage_title">Storage</string>
+    <string name="setting_home_switch">UI switch</string>
+    <string name="setting_storage_tf_tip">TF card: total</string>
+    <string name="setting_storage_sys_tip">Internal FLASH: total</string>
+    <string name="setting_storage_ava">Available</string>
+
+    <string name="setting_voice_title">System volumes</string>
+    <string name="setting_voice_tip">Music,video,games,other media</string>
+    <string name="setting_voice_lable">Volumes</string>
+
+    <string name="tip_menu_and_uninstall">"Y:Uninstall   A:Confirm   B:Back   +:Select"</string>
+    <string name="tip_menu">"A:Confirm   B:Back   +:Select"</string>
+    <string name="activity_tip_continue">Press any key to continue</string>
+
+    <string name="start_skip">Skip</string>
+    <string name="start_exit">Exit</string>
+    <string name="mp4_skip">Skip</string>
+    <string name="global_loading">Loading...</string>
+    <string name="gc_loading_text">Loading page...</string>
+    <string name="gc_loading_result_null">No games</string>
+
+    <string name="help_email">Message</string>
+    <string name="do_working">Development</string>
+    <string name="update">Check update</string>
+    <string name="delete_file_x">delete file[%s]</string>
+    
+</resources>

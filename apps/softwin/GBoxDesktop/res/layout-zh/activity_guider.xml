@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_home_atet" >
+
+    <RelativeLayout
+        android:layout_width="922.0dip"
+        android:layout_height="407.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/guider_bg" >
+
+        <ImageView
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_marginLeft="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_ani_cover_a" />
+
+        <ImageView
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_ani_cover_b" />
+
+        <ImageView
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_marginLeft="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_bar_a" />
+
+        <ImageView
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_bar_b" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAniA"
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_marginLeft="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_anim_btn_selector" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAniB"
+            android:layout_width="389.0dip"
+            android:layout_height="281.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/start_guider_anim_btn_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="88.0dip"
+            android:layout_marginLeft="145.0dip"
+            android:text="@string/start_guider_vedio_txta"
+            android:textColor="#ffffffff"
+            android:textSize="29.0dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="88.0dip"
+            android:layout_marginRight="185.0dip"
+            android:text="@string/start_guider_vedio_txtb"
+            android:textColor="#ffffffff"
+            android:textSize="29.0dip" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="83.0dip"
+            android:layout_height="37.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25.0dip"
+            android:background="@drawable/start_btn_next_selector"
+            android:text="@string/start_skip"
+            android:textColor="#ff3b3b3b"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgBottomTip1"
+        android:layout_width="366.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/guider_bg_bottom"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgBottomTip2"
+        android:layout_width="366.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/guider_bg_bottom"
+        android:visibility="gone" />
+
+</RelativeLayout>

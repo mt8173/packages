@@ -1,0 +1,3 @@
+-keep class com.softwin.gbox.home.Launcher {
+  public void enterSetting(android.view.View);
+}

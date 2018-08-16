@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/setting_item_overlay"
+        android:layout_width="416.0dip"
+        android:layout_height="416.0dip"
+        android:background="@drawable/cs_red_focus"
+        android:clickable="false"
+        android:contentDescription="@string/global_desc"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/setting_item_layout"
+            android:layout_width="211.0dip"
+            android:layout_height="211.0dip"
+            android:layout_marginLeft="93.0dip"
+            android:layout_marginTop="92.0dip"
+            android:background="#88f0f0f0"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <ImageView
+                android:id="@+id/setting_item_icon"
+                style="@style/setting_item_icon"
+                android:contentDescription="@string/global_desc" />
+
+            <TextView
+                android:id="@+id/setting_item_name"
+                style="@style/setting_item_name" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/setting_item_shadow"
+            android:layout_width="211.0dip"
+            android:layout_height="46.0dip"
+            android:layout_marginLeft="93.0dip"
+            android:layout_marginTop="304.0dip"
+            android:background="@color/color11"
+            android:contentDescription="@string/global_desc"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</FrameLayout>

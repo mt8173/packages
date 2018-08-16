@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_game_arcade_g9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:overScrollMode="never"
+    android:scrollbarThumbHorizontal="@color/gray"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/category_game_arcade_desc"
+            android:layout_width="@dimen/app_cell_height2_and_gap"
+            android:layout_height="@dimen/app_cell_height2_and_gap"
+            android:layout_marginRight="@dimen/app_cell_margin_left_"
+            android:layout_marginTop="@dimen/app_padding_top"
+            android:layout_marginLeft="@dimen/app_padding_left"
+            android:src="@drawable/game_emulater_arcade_desc" />
+
+        <com.softwin.gbox.home.GridCellLayout
+            android:id="@+id/list_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</HorizontalScrollView>

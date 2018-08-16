@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="atet_launcher_home_tab_video">VIDEO</string>
+    <string name="atet_launcher_home_tab_gameseach">COMPRAS</string>
+
+    <string name="atet_launcher_home_tab_myapp">APPS</string>
+    <string name="tablet_home_tab_netgame">NETGAMES</string>
+    <string name="tablet_home_tab_service">AYUDA</string>
+    <string name="tablet_home_tab_pc">PC_GAMES</string>
+    <string name="atet_launcher_home_tab_gamecenter">EMULADOR</string>
+    <string name="atet_launcher_home_tab_mygame">JUEGOS</string>
+
+    <!-- BOX game navigation -->
+    <string name="game_center_nav_arcade">ARCADE</string>
+    <string name="game_center_nav_n64">N64</string>
+    <string name="game_center_nav_ps1">JUEGOS CLASICOS</string>
+    <string name="game_center_nav_psp">PSP</string>
+    <string name="game_center_nav_5">Somaticoc</string>
+    <string name="game_center_nav_dc">DC</string>
+
+    <!-- BOX -->
+    <string name="app_manage">Ajustes de Pantalla</string>
+    <string name="update">Actualizacion</string>
+    <string name="factory">Restablecer a Fabrica</string>
+    <string name="time_setting">Hora</string>
+    <string name="gamepad_setting">Gamepad</string>
+    <string name="start_language_title">Seleccion de Idioma</string>
+    <string name="start_account_title">Configuracion Parental</string>
+
+    <string name="parent_lock_vc_label">Bloquear Centro de video</string>
+    <string name="parent_lock_gc_label">Bloquear Centro de Juegos</string>
+    <string name="parent_lock_mg_label">Bloquear Mis Juegos</string>
+    <string name="parent_lock_ma_label">Bloquear mis Apps</string>
+    <string name="parent_lock_gd_label">Bloquear Descarga de Juegos</string>
+    <string name="parent_lock_netgame">Lock net games</string>
+    <string name="parent_lock_apps">Bloquear mis Aplicaciones</string>
+    <string name="parent_lock_pc">Bloquear juegos pc</string>
+
+    <string name="g68_gc_back">Regreso</string>
+    <string name="result_game_null">Favor comprar una tarjeta de juego</string>
+    <string name="file_check">chequeando paquete de datos para ver si esta disponible</string>
+    <string name="file_copy_start">empezando a copiar datos</string>
+    <string name="file_copy_progress">copiado %1$s[%2$s]</string>
+
+    <string name="start_guider_vedio_txta">Introduccion Tableta</string>
+    <string name="start_guider_vedio_txtb">Introduccion a Juegos</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_game_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/view_loadcontent" />
+	<FrameLayout 
+	android:id="@+id/tablet_game_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    ></FrameLayout>
+    <RadioGroup
+        android:id="@+id/tablet_game_nav_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="top|left"
+        android:layout_marginLeft="30dip"
+        android:layout_marginBottom="30dip"
+        android:orientation="horizontal" >
+        
+        <RadioButton
+            android:id="@+id/tablet_game_xiaoji"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusLeft="@id/tablet_game_xiaoji"
+            android:nextFocusDown="@id/tablet_game_xiaoji"
+            android:text="@string/tablet_game_xiaoji" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_arcade"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusDown="@id/tablet_game_arcade"
+            android:text="@string/tablet_game_arcade" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_n64"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusDown="@id/tablet_game_n64"
+            android:text="@string/tablet_game_n64" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_gba"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusDown="@id/tablet_game_gba"
+            android:visibility="gone"
+            android:text="@string/tablet_game_gba" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_sfc"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusDown="@id/tablet_game_sfc"
+            android:text="@string/tablet_game_sfc" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_dc"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusDown="@id/tablet_game_dc"
+            android:text="@string/tablet_game_dc" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_psp"
+            style="@style/NavigationItem.Tablet"
+            android:visibility="gone"
+            android:text="@string/tablet_game_psp" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_md"
+            style="@style/NavigationItem.Tablet"
+            android:visibility="gone"
+            android:text="@string/tablet_game_md" />
+
+        <RadioButton
+            android:id="@+id/tablet_game_ps1"
+            style="@style/NavigationItem.Tablet"
+            android:nextFocusRight="@+id/tablet_game_where_layout"
+            android:nextFocusDown="@id/tablet_game_ps1"
+            android:text="@string/tablet_game_ps1" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/tablet_game_where_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="42dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/tablet_game_select_where"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusRight="@id/tablet_game_select_where"
+            android:nextFocusDown="@id/tablet_game_select_where"
+            android:nextFocusLeft="@+id/tablet_game_ps1" />
+
+        <TextView
+            android:id="@+id/tablet_game_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@drawable/tabstate_textcolor"
+            android:textSize="@dimen/small_tab_textsize" />
+    </LinearLayout>
+
+</RelativeLayout>

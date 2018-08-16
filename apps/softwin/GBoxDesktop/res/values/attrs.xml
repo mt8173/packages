@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomShadowLayout">  
+        <attr name="icon" format="reference"/>  
+        <attr name="name" format="reference"/>  
+        <attr name="style" format="reference"/>  
+        <attr name="shadow" format="boolean"/>  
+        <attr name="next_up_view" format="reference"/>  
+        <attr name="next_down_view" format="reference"/>  
+        <attr name="next_left_view" format="reference"/>  
+        <attr name="next_right_view" format="reference"/>  
+        <attr name="packageName" format="string|reference"/>  
+    </declare-styleable>
+    <declare-styleable name="AppItemView">  
+        <attr name="ashadow" format="boolean"/>  
+    </declare-styleable>
+    <declare-styleable name="CellLayout">  
+        <attr name="cellWidth" format="dimension"/>  
+        <attr name="cellHeight" format="dimension"/>  
+        <attr name="widthGap" format="dimension"/>  
+        <attr name="heightGap" format="dimension"/>  
+    </declare-styleable>
+    <declare-styleable name="MyImageSwitcher">  
+        <attr name="imageArray" format="reference"/>  
+    </declare-styleable>
+
+
+</resources>

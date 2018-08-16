@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI 설정</string>
+  <string name="hdmi_settings_summary">클릭하여 HDMI 구성</string>
+  <string name="hdmi_video_resolution">동영상 해상도</string>
+  <string name="hdmi_auto">자동</string>
+  <string name="hdmi_scale_control">비디오 배율 설정</string>
+  <string name="hdmi_scale_no_scale">배율 없음</string>
+  <string name="hdmi_scale_scale_down">배율 축소 <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">오디오 출력</string>
+  <string name="hdmi_audio_output_stereo">스테레오</string>
+  <string name="hdmi_audio_output_multi_channel">멀티 채널</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">최상의 시각 효과를 제공합니다.</string>
+  <!-- MiraVision end -->
+</resources>

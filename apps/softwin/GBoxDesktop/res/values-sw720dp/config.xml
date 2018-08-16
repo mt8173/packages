@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 720 -->
+    <bool name="use_large_heap">true</bool>
+
+    <dimen name="global_status_bar_height">50dip</dimen>
+    <dimen name="global_app_icon_size">90.0dip</dimen>
+
+    <bool name="global_show_operation_tip">true</bool>
+
+    <dimen name="tab_textsize">30.0sp</dimen>
+    <dimen name="small_tab_textsize">26.0sp</dimen>
+    <dimen name="game_tab_textsize">18sp</dimen>
+    <!-- app cell layout -->
+    <dimen name="app_cell_width_and_margin">366.0dip</dimen>
+    <dimen name="app_cell_height_and_margin">366.0dip</dimen>
+    <dimen name="app_cell_width">206dip</dimen>
+    <dimen name="app_cell_height">206dip</dimen>
+    <dimen name="app_cell_width_gap">2dip</dimen>
+    <dimen name="app_cell_height_gap">2dip</dimen>
+    <dimen name="app_cell_margin_top">73dip</dimen>
+    <dimen name="app_cell_margin_left">76dip</dimen>
+    <dimen name="app_cell_margin_right">73dip</dimen>
+    <dimen name="app_cell_margin_bottom">73dip</dimen>
+    <dimen name="app_cell_margin_top_icon">50dip</dimen>
+    <dimen name="app_cell_margin_top_text">150dip</dimen>
+    <dimen name="app_cell_margin_top_shadow">280dip</dimen>
+    <dimen name="app_padding_top">160dip</dimen>
+    <dimen name="app_padding_left">100dip</dimen>
+    <dimen name="app_text_size">21sp</dimen>
+
+    <!-- settings layout -->
+    <dimen name="settings_overlay_width_rect">638.0dip</dimen>
+    <dimen name="settings_overlay_size">424.0dip</dimen>
+    <dimen name="settings_cell_size2_and_margin">428.0dip</dimen>
+    <dimen name="settings_cell_size">212.0dip</dimen>
+    <dimen name="settings_cell_margin">106.0dip</dimen>
+    <dimen name="settings_shadow_height">50dip</dimen>
+    <dimen name="settings_icon_size">133.0dip</dimen>
+    <dimen name="settings_cell_margin_top_icon">20dip</dimen>
+    <dimen name="settings_cell_margin_top_text">160dip</dimen>
+    <dimen name="settings_cell_margin_top_shadow">319dip</dimen>
+    <dimen name="settings_margin_top">50dip</dimen>
+    <dimen name="settings_margin_left">-210dip</dimen>
+    <dimen name="settings_margin_left_rect">-208dip</dimen>
+    <!-- new -->
+    <dimen name="launcher_indicator_scroll_bottom">150dip</dimen>
+
+    <!-- password_input_cell -->
+    <dimen name="ui_pwd_btn_width">107dip</dimen>
+    <dimen name="ui_pwd_btn_height">95dip</dimen>
+    <dimen name="ui_pwd_btn_textsize">40.0sp</dimen>
+    <!-- g86 game center 720-->
+    <dimen name="gc_image_nav_v_width">320dip</dimen>
+    <dimen name="gc_image_nav_v_height">428dip</dimen>
+    <dimen name="gc_image_nav_h_width">374dip</dimen>
+    <dimen name="gc_image_nav_h_height">214dip</dimen>
+    <dimen name="gc_image_nav_layout_margin">130dip</dimen>
+</resources>

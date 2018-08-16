@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Ρυθμίσεις HDMI</string>
+  <string name="hdmi_settings_summary">Κάντε κλικ για τη ρύθμιση παραμέτρων HDMI</string>
+  <string name="hdmi_video_resolution">Ανάλυση βίντεο</string>
+  <string name="hdmi_auto">Αυτόματα</string>
+  <string name="hdmi_scale_control">Ρυθμίσεις κλίμακας βίντεο</string>
+  <string name="hdmi_scale_no_scale">Χωρίς κλιμάκωση</string>
+  <string name="hdmi_scale_scale_down">Μείωση κλίμακας <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Έξοδος ήχου</string>
+  <string name="hdmi_audio_output_stereo">Στερεοφωνικός ήχος</string>
+  <string name="hdmi_audio_output_multi_channel">Πολυκάναλος</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Παροχή των βέλτιστων οπτικών εφέ</string>
+  <!-- MiraVision end -->
+</resources>

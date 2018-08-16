@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">HDMI सेटिंग्स</string>
+  <string name="hdmi_settings_summary">HDMI कॉन्फ़िगर करने के लिए क्लिक करें</string>
+  <string name="hdmi_video_resolution">वीडियो रेज़ॉल्युशन</string>
+  <string name="hdmi_auto">स्वचालित</string>
+  <string name="hdmi_scale_control">वीडियो परिमाण सेटिंग</string>
+  <string name="hdmi_scale_no_scale">कोई परिमाण परिवर्तन नहीं</string>
+  <string name="hdmi_scale_scale_down"><xliff:g id="scale_percent">%s</xliff:g>%% परिमाण कम करें</string>
+  <string name="hdmi_audio_output">ऑडियो आउटपुट</string>
+  <string name="hdmi_audio_output_stereo">स्टीरियो</string>
+  <string name="hdmi_audio_output_multi_channel">मल्टी चैनल</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">सर्वोत्तम दृश्य प्रभाव प्रदान करता है</string>
+  <!-- MiraVision end -->
+</resources>

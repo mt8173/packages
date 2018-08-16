@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">Cài đặt HDMI</string>
+  <string name="hdmi_settings_summary">Click để định cấu hình HDMI</string>
+  <string name="hdmi_video_resolution">Độ phân giải video</string>
+  <string name="hdmi_auto">Tự động</string>
+  <string name="hdmi_scale_control">Cài đặt tỉ lệ video</string>
+  <string name="hdmi_scale_no_scale">Không chia ti lệ</string>
+  <string name="hdmi_scale_scale_down">Giảm tỉ lệ <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">Đầu ra âm thanh</string>
+  <string name="hdmi_audio_output_stereo">"Âm thanh nổi"</string>
+  <string name="hdmi_audio_output_multi_channel">Nhiều kênh</string>
+  <!-- MTK HDMI end -->
+
+  <!-- MiraVision start -->
+   <string name="mira_vision_summary">Mang lại hiệu ứng hình ảnh tốt nhất</string>
+  <!-- MiraVision end -->
+</resources>

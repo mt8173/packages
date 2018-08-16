@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--strings for Picture Quality Tool support -->
+
+    <string name="m_pq_label" translatable="false">picture</string>
+    <string name="m_pq_save_text" translatable="false">PQ</string>
+    <string name="m_picture_quality" translatable="false">PQ</string>
+    <string name="number_zero" translatable="false">"  0"</string>
+    <string name="SkinTone" translatable="false">"Skin tone(Hue): 5"</string>
+    <string name="GrassTone" translatable="false">"Grass tone(Hue): 5"</string>
+    <string name="Sharpness" translatable="false">"Sharpness: 5"</string>
+    <string name="SkyTone" translatable="false">"Sky tone(Hue): 5"</string>
+    <string name="Color" translatable="false">"Global Sat.: 0"</string>
+</resources>
